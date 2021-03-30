@@ -1,0 +1,30 @@
+GET http://localhost:3000/posts 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYnlrcmtjIiwicGFzc3dvcmQiOiIxMjM0NTYiLCJpYXQiOjE2MTcxMzcxMjcsImV4cCI6MTYxNzEzNzE0Mn0.Clm4ru2NeQD9U49hLP8E7rqPOPaBrg8tTYE8KR4eIvI
+
+###
+
+POST http://localhost:4000/token
+Content-Type:  application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYnlrcmtjIiwicGFzc3dvcmQiOiIxMjM0NTYiLCJpYXQiOjE2MTcxMzcxMTd9.wJVhnKm4VALHJ8Th39ssY5LBzwu-Rq-yLwqtATVvFQE"
+}
+
+###
+
+DELETE http://localhost:4000/logout
+Content-Type:  application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYnlrcmtjIiwicGFzc3dvcmQiOiIxMjM0NTYiLCJpYXQiOjE2MTcxMzcxMTd9.wJVhnKm4VALHJ8Th39ssY5LBzwu-Rq-yLwqtATVvFQE"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username":"bykrkc",
+    "password":"123456"
+}
