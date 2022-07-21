@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 
 const posts = [
   {
-    username: "bykrkc",
+    username: "alikarakoc",
     mail: "",
     password: "123456",
   },
