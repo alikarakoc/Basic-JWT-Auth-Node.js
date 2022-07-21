@@ -7,12 +7,12 @@ const jwt = require("jsonwebtoken");
 const posts = [
   {
     username: "bykrkc",
-    mail: "bykrkc@gmail.com",
+    mail: "",
     password: "123456",
   },
   {
     username: "emreozdemir",
-    mail: "emreozdemir@gmail.com",
+    mail: "",
     password: "654321",
   },
 ];
